@@ -1,0 +1,177 @@
+/* Define um seletor universal que se aplica a todos os elementos da página */
+* {
+    /* Define a margem para zero em todos os elementos, removendo a margem padrão do navegador */
+    margin: 0;
+    /* Define o preenchimento (espaço interno) para zero em todos os elementos, removendo o preenchimento padrão do navegador */
+    padding: 0;
+    /* Garante que a largura e altura dos elementos incluam a borda e o preenchimento, evitando problemas de layout */
+    box-sizing: border-box;
+    /* Define a família de fontes como 'Roboto', com 'sans-serif' como fallback, para uma aparência consistente do texto */
+    font-family: 'Roboto', sans-serif;
+    /* Remove a borda de foco (outline) dos elementos, geralmente aplicada por padrão em alguns navegadores */
+    outline: none;
+}
+
+/* Define estilos para o elemento body */
+body {
+    /* Define a cor de fundo do corpo da página */
+    background-color: #8A51FC;
+}
+
+/* Define estilos para a classe .logo */
+.logo {
+    /* Define a largura da imagem do logo */
+    width: 300px;
+    /* Define o display como bloco, para que a imagem ocupe toda a largura disponível */
+    display: block;
+    /* Define a margem superior e inferior para 20px e centraliza horizontalmente */
+    margin: 20px auto;
+}
+
+/* Define estilos para o elemento main */
+main {
+    /* Define a largura do elemento principal */
+    width: 375px;
+    /* Arredonda as bordas do elemento */
+    border-radius:20px;
+    /* Define a cor de fundo */
+    background: #f4f4f4;
+    /* Define as margens superior e inferior, e centraliza horizontalmente */
+    margin: 0 auto 40px;
+    /* Define o preenchimento interno, superior, laterais e inferior */
+    padding: 44px 24px 23px;
+}
+
+/* Define estilos para o elemento label */
+label {
+    /* Define a cor do texto */
+    color:#777777;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define o tamanho da fonte */
+    font-size: 14px;
+}
+
+/* Define estilos para os elementos select e input */
+select, input {
+    /* Define a cor de fundo */
+    background: #ffffff;
+    /* Define a borda */
+    border: 1px solid #bbbbbb;
+    /* Arredonda as bordas */
+    border-radius: 4px;
+    /* Define a altura */
+    height: 48px;
+    /* Define a largura */
+    width: 100%;
+    /* Define a margem inferior */
+    margin-bottom: 24px;
+    /* Remove a aparência padrão dos elementos, como setas de seleção */
+    appearance: none;
+    /* Define o preenchimento interno esquerdo */
+    padding-left: 18px;
+    /* Define o tamanho da fonte */
+    font-size: 16px;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a cor do texto */
+    color: #555555;
+    /* Define o cursor para indicar interatividade */
+    cursor: pointer;
+}
+
+/* Define estilos para o elemento input */
+input {
+    /* Remove o preenchimento interno, sobrescrevendo a regra anterior */
+    padding: 0%;
+    padding-left: 18px;
+}
+
+/* Define estilos para o elemento button */
+button {
+    /* Define a cor de fundo */
+    background: #772fd3;
+    /* Arredonda as bordas */
+    border-radius: 5px;
+    /* Define a largura */
+    width: 100%;
+    /* Remove a borda */
+    border: none;
+    /* Define a altura */
+    height: 48px;
+    /* Define a cor do texto */
+    color: #ffffff;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define o tamanho da fonte */
+    font-size: 18px;
+    /* Define o cursor para indicar interatividade */
+    cursor: pointer;
+}
+
+/* Define estilos para o estado hover do elemento button */
+button:hover {
+    /* Define a opacidade para criar um efeito visual ao passar o mouse */
+    opacity: 0.8;
+}
+
+/* Define estilos para o estado active do elemento button */
+buttom:active {
+    /* Define a opacidade para criar um efeito visual ao clicar */
+    opacity: 0.6;
+}
+
+/* Define estilos para o elemento section */
+section {
+    /* Define a borda */
+    border: 1px solid #772fd3;
+    /* Arredonda as bordas */
+    border-radius: 20px;
+    /* Define a margem superior */
+    margin-top: 36px;
+    /* Define o preenchimento interno */
+    padding: 12px;
+    /* Define o display como flexível */
+    display: flex;
+    /* Define a direção dos itens flexíveis como coluna */
+    flex-direction: column;
+    /* Alinha os itens flexíveis ao centro */
+    align-items: center;
+}
+
+/* Define estilos para a classe .arrow-img */
+.arrow-img {
+    /* Define a margem superior e inferior */
+    margin: 15px 0;
+
+}
+
+/* Define estilos para a classe .currency-box */
+.currency-box {
+    /* Define o display como flexível */
+    display: flex;
+    /* Define a direção dos itens flexíveis como coluna */
+    flex-direction: column;
+    /* Alinha os itens flexíveis ao centro */
+    align-items: center;
+    /* Define o espaçamento entre os itens */
+    gap: 4px;
+}
+
+/* Define estilos para a classe .currency */
+.currency {
+    /* Define a cor do texto */
+    color: #777777;
+    /* Define o tamanho da fonte */
+    font-size: 14px;
+}
+
+/* Define estilos para a classe .currency-value */
+.currency-value, .currency-value-to-convert {
+    /* Define a cor do texto */
+    color: #555555;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+}
