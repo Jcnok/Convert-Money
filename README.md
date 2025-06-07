@@ -1,14 +1,14 @@
 # Convert Money 💰
 
 ![badge-status](https://img.shields.io/badge/status-concluído-brightgreen)
-![badge-license](https://img.shields.io/github/license/jcnok/SEU_REPOSITORIO?color=blue)
-![badge-last-commit](https://img.shields.io/github/last-commit/jcnok/SEU_REPOSITORIO?color=orange)
+![badge-license](https://img.shields.io/github/license/Jcnok/Convert-Money?color=blue)
+![badge-last-commit](https://img.shields.io/github/last-commit/Jcnok/Convert-Money?color=orange)
 
 ---
 
 
 
-## **🚀[Clique aqui para testar a aplicação em tempo real!](https://SEU_USUARIO.github.io/SEU_REPOSITORIO/)**
+## **🚀[Clique aqui para testar a aplicação em tempo real!](https://jcnok.github.io/Convert-Money/)**
 
 ---
 
@@ -59,12 +59,12 @@ Se desejar executar o projeto em sua máquina local, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+    git clone https://github.com/Jcnok/Convert-Money.git
     ```
 
 2.  **Navegue até o diretório do projeto:**
     ```bash
-    cd SEU_REPOSITORIO
+    cd Convert-Money
     ```
 
 3.  **Abra o arquivo `index.html` no seu navegador:**
@@ -76,7 +76,7 @@ E pronto! A aplicação estará rodando localmente.
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Jcnok/Convert-Money/blob/main/LICENSE) para mais detalhes.
 
 ---
 
